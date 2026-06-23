@@ -250,7 +250,7 @@ ggplot(result_table, aes(log2FoldChange, -log10(padj), colour = Significant)) +
 
 ### MA plot
 
-The MA plot shows the mean normalised read counts (M) on the x-axis and the log2 fold change (A) of each gene on the y-axis.
+The MA plot shows the normalised read counts (M) on the x-axis and the log2 fold change (A) of each gene on the y-axis.
 
 ```{r ma_plot}
 plotMA(resLFC)
